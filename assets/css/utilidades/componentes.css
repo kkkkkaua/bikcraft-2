@@ -17,10 +17,17 @@
   text-transform: uppercase;
   color: var(--cor-p5);
   font: 600 1.8rem/1.35 'Poppins', sans-serif;
+
+  max-width: max-content;
+}
+
+.botao:hover {
+  background: linear-gradient(#ffb60d, #e59317);
 }
 
 .link {
   display: inline-block;
+
   color: var(--cor-p1);
   font: 500 2.4rem/1.5 'Poppins', sans-serif;
   text-transform: uppercase;
@@ -28,18 +35,25 @@
 
 .link::after {
   content: '';
-  display: block;
-  width: 100%;
   height: 0.4rem;
+  width: 100%;
+
+  display: block;
+
   background: currentColor;
 }
 
-.link:hover {
-  color: var(--cor-0);
+.botao.secundario {
+  background: var(--cor-10);
+  
+  color: var(--cor-2);
 }
 
-.botao:hover {
-  background: linear-gradient(#ffb60d, #e59317);
+.botao.secundario:hover {
+  background: var(--cor-9);
+}
+.link:hover {
+  color: var(--cor-0);
 }
 
 @media (max-width: 600px) {
