@@ -1,0 +1,89 @@
+.tec-bg {
+  background: var(--cor-11);
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+
+.tec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.tec a {
+  margin-bottom: 8rem;
+}
+
+.tec-foto img {
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
+  object-position: left;
+}
+
+.tec-content {
+  padding-block: 16rem;
+}
+
+.tec-content > span {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.tec-content h2 {
+  margin-bottom: 3.2rem;
+}
+
+.tec-content > p {
+  margin-bottom: 2rem;
+}
+
+.tec-vant {
+  display: flex;
+  gap: 4rem;
+}
+
+.tec-vant h3 {
+  margin-bottom: 0.8rem;
+  width: max-content;
+
+  font: 500 2.4rem/1.5 'Poppins', sans-serif;
+}
+
+.tec-vant p {
+  font: 400 1.6rem/1.5 'Roboto', sans-serif;
+}
+
+.tec-vant img {
+  width: 2.4rem;
+
+  margin-bottom: 0.8rem;
+}
+
+@media (max-width: 800px) {
+  .tec-bg {
+    box-shadow: initial;
+  }
+
+  .tec {
+    grid-template-columns: 1fr;
+  }
+
+  .tec a {
+    margin-bottom: 6rem;
+  }
+
+  .tec-content {
+    padding-block: 6rem;
+  }
+
+  .tec-foto {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .tec-vant {
+    flex-direction: column;
+  }
+}

@@ -8,11 +8,8 @@
   gap: 2rem;
   justify-content: space-between;
   align-items: center;
-
-  padding: 2rem;
-  margin-inline: auto;
-
-  max-width: 120rem;
+  
+  padding-block: 2rem;
 }
 
 .header-menu {
@@ -73,7 +70,7 @@
   }
   .header-menu a {
     padding: 0.8rem 1.2rem;
-    
+
     font-size: 1.4rem;
   }
 }
