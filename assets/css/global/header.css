@@ -8,9 +8,11 @@
   gap: 2rem;
   justify-content: space-between;
   align-items: center;
+
   padding: 2rem;
-  max-width: 120rem;
   margin-inline: auto;
+
+  max-width: 120rem;
 }
 
 .header-menu {
@@ -21,20 +23,26 @@
 
 .header-menu a {
   display: inline-block;
-  padding: 1.6rem 0;
   position: relative;
+
+  padding: 1.6rem 0;
+
   font-size: 1.8rem;
 }
 
 .header-menu a:after {
   content: '';
-  display: block;
   height: 0.2rem;
   width: 0;
+
   background: var(--cor-0);
+
   margin-top: 0.4rem;
+
   transition: 0.3s;
+
   position: absolute;
+  display: block;
 }
 
 .header-menu a:hover:after {
@@ -47,8 +55,9 @@
   }
   .header-menu a {
     background: var(--cor-11);
-    padding: 1.2rem 1.6rem;
     border-radius: 0.4rem;
+
+    padding: 1.2rem 1.6rem;
   }
   .header-menu a:hover {
     background-color: var(--cor-10);
@@ -64,6 +73,7 @@
   }
   .header-menu a {
     padding: 0.8rem 1.2rem;
+    
     font-size: 1.4rem;
   }
 }
