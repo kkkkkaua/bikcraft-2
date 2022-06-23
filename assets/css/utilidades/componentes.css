@@ -45,7 +45,7 @@
 
 .botao.secundario {
   background: var(--cor-10);
-  
+
   color: var(--cor-2);
 }
 
@@ -61,5 +61,27 @@
     padding: 1.2rem 1.6rem;
 
     font-size: 1.6rem;
+  }
+}
+
+/* Titulo interno */
+.titulo-bg {
+  background: var(--cor-11);
+
+  padding-block: 6rem;
+}
+
+.titulo p {
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-block: 4rem;
+  }
+  
+  .titulo p {
+    font-weight: 400;
+    text-transform: lowercase;
   }
 }
