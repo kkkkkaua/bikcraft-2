@@ -1,0 +1,22 @@
+.perguntas {
+  padding-block: 12rem;
+}
+
+.perguntas h2 {
+  margin-bottom: 6rem;
+}
+
+.perguntas dl > div {
+  padding: 2rem;
+  border-radius: 0.4rem;
+}
+
+.perguntas dl > div:nth-child(odd) {
+  background: var(--cor-1);
+}
+
+.perguntas dt::before {
+  content: '';
+
+  display: inline-block;
+}
