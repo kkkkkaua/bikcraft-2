@@ -15,15 +15,17 @@
 }
 
 .contato-data {
-  background: var(--cor-12);
-
   border-radius: 0.5rem 0 0 0.5rem;
+
+  background: var(--cor-12) url(../../img/dec/bottom-left.svg) no-repeat bottom
+    2rem left 2rem;
 }
 
 .contato-form {
-  background: var(--cor-0);
-
   border-radius: 0 0.5rem 0.5rem 0;
+
+  background: var(--cor-0) url(../../img/dec/bottom-right.svg) no-repeat bottom
+    2rem right 2rem;
 }
 
 .contato-data h2 {
@@ -86,6 +88,7 @@
 
   .contato-data {
     border-radius: 0.5rem 0.5rem 0 0;
+    background: var(--cor-12);
   }
 
   .contato-form {

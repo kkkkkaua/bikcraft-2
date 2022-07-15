@@ -41,12 +41,13 @@
 .orcamento-prod {
   border-radius: 0.5rem 0 0 0.5rem;
 
-  background: var(--cor-12);
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
   gap: 2rem;
+
+  background: var(--cor-12) url(../../img/dec/bottom-left.svg) no-repeat bottom
+    2rem left 2rem;
 }
 
 .orcamento-prod > * {
@@ -136,7 +137,8 @@
 .orcamento-data {
   border-radius: 0 0.5rem 0.5rem 0;
 
-  background: var(--cor-0);
+  background: var(--cor-0) url(../../img/dec/bottom-left.svg) no-repeat bottom
+  2rem right 2rem;;
 }
 
 #bikcraft:checked ~ #orcamento-bik,

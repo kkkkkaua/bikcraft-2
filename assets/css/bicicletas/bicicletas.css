@@ -8,6 +8,8 @@
   gap: 4rem;
 
   padding-block: 6rem;
+
+  background: url(../../img/dec/top-right.svg) no-repeat top 4rem right 2rem;
 }
 
 .bicicletas-img {

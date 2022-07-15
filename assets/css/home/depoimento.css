@@ -17,7 +17,12 @@
 .depoimento-content {
   padding: 4rem 4rem 8rem 8rem;
 
+  font: 600 2.4rem/1.5 'Poppins', sans-serif;
+
   align-self: end;
+
+  background: url(../../img/dec/bottom-right-p.svg) no-repeat bottom 4rem right
+    4rem;
 }
 
 .depoimento-content p {
@@ -29,10 +34,6 @@
   max-width: 32ch;
 
   position: relative;
-}
-
-.depoimento-content {
-  font: 600 2.4rem/1.5 'Poppins', sans-serif;
 }
 
 .depoimento p::before {
@@ -54,6 +55,12 @@
   content: '”';
 }
 
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 52rem;
+  }
+}
+
 @media (max-width: 800px) {
   .depoimento {
     grid-template-columns: 1fr;
@@ -63,7 +70,7 @@
 
   .depoimento-content {
     padding: 4rem 4rem 2rem 2rem;
-    
+
     justify-self: center;
   }
 
